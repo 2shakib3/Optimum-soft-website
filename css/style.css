@@ -1,0 +1,191 @@
+*{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+padding: 0px;
+margin: 0 auto;
+}
+body{
+width:100%;
+padding: 0px;
+margin: 0 auto;
+}
+p{
+clear:both;
+color:#000000;
+padding:2px;
+}
+#Blue_text{
+margin-top:20px;
+margin-bottom:20px;
+color:#295890;
+font-size:24px;
+
+
+}
+
+#Bold_text_blue{ /* for all heading*/
+margin-top:30px;
+margin-bottom:20px;
+color:#295890;
+font-size:30px;
+text-align: center;
+
+}
+#line{ /* line under heading */
+width:25px;
+height: 5px;
+background-color:#CCCCCC;
+border-radius:2px;
+margin-bottom: 10px;
+
+}
+#logo{ /* logo */
+float:left;
+width:100px;
+height:20px;
+
+}
+
+#menu { /* menu*/
+width:100%;
+position:fixed;
+padding:6px;
+
+color:#FFFFFF;
+}
+#menu a {
+float:right;
+margin-right:10%;
+background:none;
+color:#FFFFFF;
+text-decoration: none;
+}
+#menu a:hover {
+padding:5px;
+color:#FFFFFF;
+border:2px solid #FFFFFF;
+border-radius:20px;
+}
+
+#header_area{ /* header container*/
+width:95%;
+background-image:url(../images/bgi.jpg);
+background-size:100% ;
+background-repeat:no-repeat;
+padding-left:5%;
+padding-top:20px;
+
+
+}
+
+
+#banner{
+width:50%;
+padding:10px 0px 10px;
+float:left;
+
+}
+
+
+
+
+
+#btn{ /* button on header area (Read more)*/
+
+background-color:#295890;
+border:none;
+padding:10px;
+border-radius:15px;
+
+}
+#btn:hover {
+background:#8080FF;
+color: #000000;
+border:none;
+}
+
+#more {display: none;}
+
+
+
+#about{/* About us div*/
+margin-top:40px;
+padding:50px;
+background-image:url(../images/bg1.jpg);
+background-repeat:no-repeat;
+background-size:100% ;
+color:#FFFFFF;
+text-align:center;
+
+}
+#about p{
+color:#FFFFFF;
+padding:20px;
+}
+#What_we_do{/* What_we_do container */
+background-image:url(../images/container.jpg);
+background-repeat:no-repeat;
+text-align:center;
+height:auto;
+padding:20px 10% 20px;
+margin-top:50px;
+margin-bottom:50px;
+
+}
+
+
+#box_what_we_do{/* box on what we do */
+padding:5px;
+background-color:#FFFFFF;
+margin:5px;;
+box-shadow: 5px 5px 10px #E4E4E4;
+
+}
+#box_what_we_do h5{
+color:#295890;
+size:10px;
+padding:10px;
+}
+
+
+#tools{ /* Our Tools & Technologies*/
+width:100%;
+background-image:url(../images/f.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+height:500px;
+
+}
+
+#Recent_work{ /* Our recent work container*/
+background-image:url(../images/bg1.jpg);
+
+padding: 20px 10% 20px;
+}
+
+#Box_holder{ /* Our recent work box container*/
+background-color:#000000;
+padding:5%;
+background-color:#FFFFFF;
+border-radius:5px;
+
+width:100%;
+vertical-align:middle;
+
+}
+
+#box{ /* box on Our recent work*/
+padding:5px;
+background-color:#ECF1F7;
+margin:5px;;
+
+}
+
+.btn{  /*button on Our recent work*/
+
+background-color:#3366FF;
+color:#FFFFFF;
+position:absolute;
+float:right;
+font-weight:bold;
+
+}
