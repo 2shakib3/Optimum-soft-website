@@ -1,0 +1,122 @@
+
+
+*{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0 auto;
+    }
+    body{
+    width:100%;
+    padding: 0px;
+    margin: 0 auto;
+    }
+    p{
+    font-size:14px;
+    clear:both;
+    color:#000000;
+    padding:2px;
+    }
+    #Blue_text{
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#295890;
+    font-size:24px;
+    font-weight:bold;
+    
+    
+    }
+    
+    #Bold_text_blue{ /* for all heading*/
+    margin-top:30px;
+    margin-bottom:20px;
+    color:#295890;
+    font-weight:bold;
+    font-size:30px;
+    text-align: center;
+    font-weight:bold;
+    }
+    #line{ /* line under heading */
+    width:25px;
+    height: 5px;
+    background-color:#CCCCCC;
+    border-radius:2px;
+    margin-bottom: 50px;
+    
+    }
+
+
+    #feedback{/*feedback container*/
+        width:100%;
+        margin-bottom:100px;
+        position: relative;
+        }
+        
+        #feedback_box_container{/*feedback box container*/
+        width:350px;
+        background-color:#E9EAEE;
+        vertical-align:middle;
+        z-index: -1;
+        }
+        
+        #blue_line{/*blue line on the top of feedback box*/
+        width:80px;
+        height:8px;
+        background-color:#009EFF;
+        float:left;
+        margin-top:-2px;
+        }
+        
+        #feedback_box{/*feedback box */
+        width:100%;
+        background-color:#E9EAEE;
+        text-align:justify;
+        padding:30px;
+        margin-top:20px;
+        
+        }
+        
+        #feedback_footer{/*blue footer in the feedback box*/
+        background-color:#009EFF;
+        height:100px;
+        padding:10px;
+        
+        }
+        #feedback_circle{/* circle shaped image div in  the feedback box*/
+        border-radius: 100%;
+        float:left;
+        background-color:#E9EAEE;
+        width:75px;
+        height:75px;
+        
+        }
+        
+        #customer_name{ /* customer name div in  the feedback box*/ 
+        width:245px;
+        color:#FFFFFF;
+        float:left;
+        margin-left:5px;
+        margin-top:5px;
+        padding:5px;
+        
+        }
+        #customer_name p{
+        color:#FFFFFF;
+        font-size:12px;
+        }
+        
+        
+        #footer_container{/*footer container*/
+        margin: 50px 10% 50px;
+        }
+
+.rotateT-background {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    top:120px;
+    background-color: #009EFF;
+    /* transform: rotate(45deg) translateY(45deg); */
+    -ms-transform: skewY(-10deg); /* IE 9 */
+    transform: skewY(-10deg);
+   z-index: -5;
+}

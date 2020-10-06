@@ -58,6 +58,7 @@ position:fixed;
 padding:6px;
 margin-right:10%;
 color:#FFFFFF;
+z-index:2;
 }
 #menu a {
 float:right;
@@ -181,7 +182,7 @@ margin-bottom:50px;
 padding:5px;
 background-color:#FFFFFF;
 margin:5px;;
-box-shadow: 5px 5px 10px #E4E4E4;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #box_what_we_do h5{
@@ -243,17 +244,6 @@ background-image:linear-gradient(to bottom right,#7AD3FA 30%,#5455F9 50%,#4142F7
 color:#FFFFFF;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -348,10 +338,10 @@ color:#FFFFFF;
 font-size:12px;
 }
 
-
 #footer_container{/*footer container*/
 margin: 50px 10% 50px;
 }
+
 
 
 #footer_div{ /* footer text section*/
@@ -367,5 +357,21 @@ color:#9396A5;
 }
 
 
+#topBtn{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  font-weight:10px;
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  color: #0066FF;
+  border: none;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:5px;
+}
 
 
